@@ -1,0 +1,150 @@
+body {
+	font-size: 17px;
+	line-height: 20px;
+	overflow-x: scroll;
+    height: 100%;
+    margin: 0;
+}
+
+html {
+    height: 100%;
+}
+
+p {
+	margin-top: 0;
+	margin-bottom: 0;
+    max-width: 350px;    
+}
+
+ul {
+	list-style: none;
+	padding-left: 0;
+}
+
+a {
+	text-decoration: none;
+    font-style: italic;
+	color: black;
+}
+
+img {
+    
+}
+
+.bg {
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+@media (max-width: 800px) {
+.project {
+	height:auto;
+	white-space: normal;
+	position: static;
+	padding: 10px 25px 120px 25px;
+}
+    
+.about {
+	height:auto;
+	white-space: normal;
+	position: static;
+	padding: 10px 25px 120px 25px;
+}
+    
+.text {
+	height:auto;
+	white-space: normal;
+	position: static;
+	padding: 10px 25px 25px 25px;
+}    
+    
+img {
+	display: block;
+}
+
+.nav {
+	/*background-color: red;*/
+	position: static;
+	height: auto;
+}
+
+.footer {
+	width: 100%;
+	position: fixed;
+	left: 0;
+	padding-left: 20px;
+}
+
+.vert {
+	max-height: 90vh;
+	max-width: 100%;
+	width: auto;
+	height: auto;
+    margin-bottom: 25px;
+}
+    
+.vert2 {
+	max-height: 90vh;
+	max-width: 100%;
+	width: auto;
+	height: auto;
+    margin-bottom: 25px;
+}
+
+.horiz {
+	max-height: 90vh;
+	max-width: 100%;
+	width: auto;
+	height: auto;
+    margin-bottom: 25px;
+}
+
+.home {
+    max-height: 90vh;
+    max-width: 70%;
+    padding-top: 0;
+    float: left;
+    width: auto;
+    height: auto;
+        
+}
+    
+.home-horiz {
+    max-height: 90vh;
+    max-width: 90%;
+    padding-top: 0;
+    float: right;
+    width: auto;
+    height: auto;
+        
+}
+    
+.news {
+   	max-height: 90vh;
+	max-width: 100%;
+	width: auto;
+	height: auto;
+}
+
+.totop {
+
+	display: inline;
+	text-align: right;
+	right: 0px;
+}
+
+.email {
+    display: none;    
+}
+
+}
+
+
+
+
+
+
+
+
